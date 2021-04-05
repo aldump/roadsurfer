@@ -1,0 +1,11 @@
+App\Entity\RentItem:
+  rent_item0:
+    name: Portable toilet
+  rent_item1:
+    name: Bed sheets
+  rent_item2:
+    name: Sleeping bag
+  rent_item3:
+    name: Camping table
+  rent_item4:
+    name: Camping chair

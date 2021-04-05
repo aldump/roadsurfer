@@ -1,0 +1,13 @@
+App\Entity\RentedItem:
+  rented_item{0..3}:
+    booking: '@booking0'
+    item: '@rent_item*'
+  rented_item{4..8}:
+    booking: '@booking1'
+    item: '@rent_item*'
+  rented_item{9..15}:
+    booking: '@booking2'
+    item: '@rent_item*'
+  rented_item{16..50}:
+    booking: '@booking*'
+    item: '@rent_item*'

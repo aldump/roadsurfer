@@ -16,7 +16,6 @@
 
     <file>config/</file>
     <file>src/</file>
-    <file>tests/</file>
 
     <rule ref="PSR1.Methods.CamelCapsMethodName.NotCamelCaps">
         <exclude-pattern>src/Grpc/</exclude-pattern>
@@ -166,7 +165,6 @@
         <properties>
             <property name="rootNamespaces" type="array">
                 <element key="src" value="App"/>
-                <element key="tests" value="App\Tests"/>
             </property>
         </properties>
     </rule>

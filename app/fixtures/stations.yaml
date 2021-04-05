@@ -1,0 +1,7 @@
+App\Entity\Station:
+  station0:
+    name: Berlin
+  station1:
+    name: Amsterdam
+  station2:
+    name: Prague

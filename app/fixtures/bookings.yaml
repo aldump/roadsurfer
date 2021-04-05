@@ -1,0 +1,25 @@
+App\Entity\Booking:
+  booking0:
+    station: '@station0'
+    createdAt: <dateTimeInInterval('-10 days')>
+    updatedAt: <dateTimeInInterval('-10 days')>
+    startDate: <dateTimeInInterval('+5 days')>
+    endDate: <dateTimeInInterval('+10 days')>
+  booking1:
+    station: '@station1'
+    createdAt: <dateTimeInInterval('-10 days')>
+    updatedAt: <dateTimeInInterval('-10 days')>
+    startDate: <dateTimeInInterval('+5 days')>
+    endDate: <dateTimeInInterval('+10 days')>
+  booking2:
+    station: '@station2'
+    createdAt: <dateTimeInInterval('-10 days')>
+    updatedAt: <dateTimeInInterval('-10 days')>
+    startDate: <dateTimeInInterval('+5 days')>
+    endDate: <dateTimeInInterval('+10 days')>
+  booking{3..10}:
+    station: '@station*'
+    createdAt: <dateTimeInInterval('-10 days')>
+    updatedAt: <dateTimeInInterval('-10 days')>
+    startDate: <dateTimeInInterval('+5 days')>
+    endDate: <dateTimeInInterval('+10 days')>
